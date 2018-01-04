@@ -2,11 +2,24 @@ body{
 	margin: 0px;
 }
 button{
-	border: 1px solid black;
-	margin-left: 90%;
-	margin-top: 0.5%;
+	height: 65%;
 background-color: #AB91FF; 
-padding: 5px;  
+padding: 7px;
+font-size: 100%;
+font-variant: small-caps;
+font-family: arial;
+color: white; 
+border-radius: 5px;
+float: right;
+margin-right: 0.5%;
+margin-top: -1%;  
+}
+button:hover{
+	background: center;
+	background-color:  #A84441;
+	color: white;
+	font-style: oblique;
+	position: right; 
 }
 
 #navbar{
@@ -14,7 +27,15 @@ padding: 5px;
 	height: 50px;
 	border: 1px solid black;
 	background-color: #10101010;
+	font-variant: small-caps;
+	text-align: left;
+	}
+#navbar p{
+	padding-top: 0%;
+	margin: 0px;
 }
+
+
 #imagen{
 	width: 100%;
 	height: 500px;
@@ -23,52 +44,86 @@ padding: 5px;
 	border-right: 1px solid black;
 	z-index: -1;
 	position: absolute;
-	filter: blur(50px);
+	filter: blur(2px);
+	margin-top: 0%;
+
+}
+#imagensegunda{
+width: 100%;
+	height: 500px;
+	border-left: 1px solid black;
+	border-bottom:1px solid black;
+	border-right: 1px solid black;
+	z-index: -1;
+	position: absolute;
+	filter: blur(2px);
+	margin-top: 0%;
+
+
+}
+
+#imagentercera{
+width: 100%;
+	height: 500px;
+	border-left: 1px solid black;
+	border-bottom:1px solid black;
+	border-right: 1px solid black;
+	z-index: -1;
+	position: absolute;
+	filter: blur(2px);
+	margin-top: 0%;
+
 }
 
 #textoarriba{
 	margin-top: 7%;
-	font-size: 150%;
+	font-size: 75px;
   text-align: center;
+  font-family: monotype corsiva;
+  font-style: oblique;
+  color:	white;
 }
 
 .features{
 	width: 100%;
-	margin: 10px
+	margin: 10px;
 	height:auto;
 	display: inline-flex;
 border:1px solid black;
 border-radius: 15px;
+color: white;
 }
 
 .feature{
-width: 33%
-border: 5px solid blue
-padding: 3em;
+width: 33%;
+border: 1px double blue;
+padding: 3px;
+margin-top: -50%;
 }
 
 .feature img {
-	width: 150px
+	width: 80%;
+	border-radius:100%;
 }
 
-#zorro {
+#intermedio {
 	display: inline-flex;
 	padding: 2em;
 	height: auto;
+	color: white;
 }
-#zorro p {
-	width: 60%;
-	margin-left: 10%;
+#intermedio p {
+	width: 100%;
+	height: auto;
 }
-#zorro img {
+#intermedio img {
 	width: 30%;
 	vertical-align: middle;
 }
 
 #formulario{
-	border: 2px solid blue;
-	padding: 10%;
-	margin-left: 10%;
+	border: 1px solid blue;
+	width: 100%
 }
 
 #formulario input{
@@ -87,18 +142,33 @@ padding: 3em;
 }
 
 #formulario form #A{
-display: inline-flex;
+display: inline-block;
+width: 100%;
 }
 #formulario form #B{
-display: inline-flex;
+display: inline-block;
+width: 100%;
 }
 #formulario form #C{
-	display: inline-flex;
+	display: inline-block;
+	width: 100%;
 }
 #formulario #gatoagrupado{
-	display: inline-flex;
+	width: 100%;
+	display: inline-block;
 }
 
 footer{
 	border: 2px solid black;
+}
+#a{
+	width: 100%;
+	margin-top: 15%;
+	margin-left: 3%;
+	font-style: oblique;
+}
+#navbar a {
+	width: auto;
+}
+#link  
 }
