@@ -98,3 +98,7 @@ display: inline-flex;
 #formulario #gatoagrupado{
 	display: inline-flex;
 }
+
+footer{
+	border: 2px solid black;
+}
