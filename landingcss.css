@@ -137,9 +137,8 @@ padding: 50px;
 	background-color: lightgray;
 	text-align:center;
 	margin-top: -0.5%;
-	width: 100%;
-	padding: 4%;
-	display: inline-block; 
+	width: 92%;
+	padding: 4%; 
 
 }
 
@@ -154,7 +153,8 @@ section #comentario{
 
 footer{
 	border: 2px solid black;
-	padding-top: 5%;
+	width: 90%;
+	padding: 5%;
 	background-color: lightblue;
 	font-variant: small-caps;
 	font-size: 70px;
@@ -164,9 +164,11 @@ footer{
 #navbar a {
 	width: auto;
 }
-#formulario h1{
+h2{
 	font-variant: small-caps;
-	font-size: 65px;
+	font-size: 75px;
 margin-top: -0.7%;
+margin-left: 10%;
+text-align: center;
 }
 
