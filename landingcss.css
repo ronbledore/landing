@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 }
-button{
+#navbar #botonarriba button{
 	height: 65%;
 background-color: #AB91FF; 
 padding: 7px;
@@ -26,7 +26,7 @@ button:hover{
 	width: 100%;
 	height: 50px;
 	border: 1px solid black;
-	background-color: #10101010;
+	background-color: lightgray;
 	font-variant: small-caps;
 	text-align: left;
 	}
@@ -75,6 +75,18 @@ width: 100%;
 
 }
 
+#imagencuarta{
+	width: 100%;
+	height: 500px;
+	border-left: 1px solid black;
+	border-bottom:1px solid black;
+	border-right: 1px solid black;
+	z-index: -1;
+	position: absolute;
+	filter: blur(0px);
+
+}
+
 #textoarriba{
 	margin-top: 7%;
 	font-size: 75px;
@@ -89,27 +101,26 @@ width: 100%;
 	margin: 10px;
 	height:auto;
 	display: inline-flex;
-border:1px solid black;
+border:0px solid white;
 border-radius: 15px;
 color: white;
 }
 
 .feature{
 width: 33%;
-border: 1px double blue;
-padding: 3px;
-margin-top: -50%;
+border: 0px double blue;
+padding: 50px;
 }
 
 .feature img {
-	width: 80%;
+	width: 50%;
 	border-radius:100%;
 }
 
 #intermedio {
 	display: inline-flex;
-	padding: 2em;
-	height: auto;
+	padding: 4.5em;
+	height: 365px;
 	color: white;
 }
 #intermedio p {
@@ -119,56 +130,43 @@ margin-top: -50%;
 #intermedio img {
 	width: 30%;
 	vertical-align: middle;
+	border-radius: 100%;
 }
 
 #formulario{
-	border: 1px solid blue;
-	width: 100%
-}
-
-#formulario input{
-	border: 1px solid blue;
-	border-radius: 7px;
- font-family: lucida console;
-}
-
-#formulario #enviarformulario{
-	font-size: 50px;
+	background-color: lightgray;
+	text-align:center;
+	margin-top: -0.5%;
 	width: 100%;
-	text-align: center;
-	border: 2px solid black;
-	margin-top: 40%;
+	padding: 4%;
+	display: inline-block; 
 
 }
 
-#formulario form #A{
-display: inline-block;
-width: 100%;
+#formulario form{
+	width:0%;
+	background-color: blue;
 }
-#formulario form #B{
-display: inline-block;
-width: 100%;
+section #comentario{
+	padding: 100px;
 }
-#formulario form #C{
-	display: inline-block;
-	width: 100%;
-}
-#formulario #gatoagrupado{
-	width: 100%;
-	display: inline-block;
-}
+
 
 footer{
 	border: 2px solid black;
+	padding-top: 5%;
+	background-color: lightblue;
+	font-variant: small-caps;
+	font-size: 70px;
 }
-#a{
-	width: 100%;
-	margin-top: 15%;
-	margin-left: 3%;
-	font-style: oblique;
+
 }
 #navbar a {
 	width: auto;
 }
-#link  
+#formulario h1{
+	font-variant: small-caps;
+	font-size: 65px;
+margin-top: -0.7%;
 }
+
